@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>وزارة التعليم - المواقع الخاصة بها</title>
+  </head>
+  <body dir="rtl" class="amiri-regular">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-light">
+      <div class="container">
+        <a class="navbar-brand amiri-regular display-1" href="index.html"
+          ><h3>وزارة التربية والتعليم</h3></a
+        >
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-4 mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" aria-current="page"
+                >الرئيسية <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li> -->
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Dropdown</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#"> 1</a>
+                <a class="dropdown-item" href="#"> 2</a>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="py-5 text-center">
+      <div class="container">
+        <div>
+          <p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseExamplea"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              موقع وزارة التربية والتعليم
+            </a>
+          </p>
+          <div class="collapse" id="collapseExamplea">
+            <div class="card card-body">
+              <img src="location1.png" alt="" srcset="" />
+
+              <a href="index.html" class="btn btn-danger w-25 text-center m-2">
+                الرئيسية
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              المدن
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <ul class="list-group">
+                <li>
+                  <div>
+                    <p>
+                      <a
+                        class="btn btn-primary btn-success"
+                        data-bs-toggle="collapse"
+                        href="#collapseExampleb"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="collapseExample"
+                      >
+                        الرياض
+                      </a>
+                    </p>
+                    <div class="collapse" id="collapseExampleb">
+                      <div class="card card-body">
+                        <ul>
+                          <li><a href="ared.html">مكتب العارض</a></li>
+                          <li><a href="#">مكتب 1</a></li>
+                          <li><a href="#">مكتب 2</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    class="btn btn-primary btn-success"
+                    data-bs-toggle="collapse"
+                    role="button"
+                  >
+                    الشرقية
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="btn btn-primary btn-success m-2"
+                    data-bs-toggle="collapse"
+                    href="#collapseExampleb"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    الغربية
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img src="location.png" alt="" />
+    </footer>
+
+    <script src="popper.min.js"></script>
+    <!-- <script src="bootstrap.bundle.min.js"></script> -->
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>

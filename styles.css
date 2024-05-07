@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;700&display=swap');
+
+.amiri-regular {
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amiri-bold {
+  font-family: 'Amiri', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.amiri-regular-italic {
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.amiri-bold-italic {
+  font-family: 'Amiri', serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background-color: #b5fffd91;
+  /* background-image: linear-gradient(0deg, #ffdee923 0%, #b5fffd91 100%); */
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul .navbar-nav {
+  font-size: 2rem !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  text-align: left;
+}
